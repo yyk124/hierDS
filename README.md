@@ -6,10 +6,8 @@ Experiments were performed on a Windows 11 system. And the R statistical computi
 
 Contents: 
 HierDS.R contains the main R functions for implementing the HierDS method. Users can use these functions to perform high-dimensional survival analysis with interaction terms and control the FDR.
-
 lasso_inference.R included to implement the "debiased lasso" method, sourced from https://web.stanford.edu/~montanar/sslasso/code.html. 
 
 Notes: 
 For the comparison method BH_Hierarchy and Knockoff, we use the p.adjust function and knockoff package, respectively.
-
 Knockoff package sourced from https://cran.r-project.org/web/packages/knockoff/index.html.
